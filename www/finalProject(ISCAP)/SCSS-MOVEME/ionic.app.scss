@@ -1,0 +1,12 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.babb {
+	background-color: black;
+	color: red;
+}
+
+.babb: hover {
+	background-color: purple;
+	color: yellow;
+}
+

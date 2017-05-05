@@ -1,0 +1,35 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-royal">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21" style="background-color:#000000;">
+    <ion-header-bar class="bar-royal">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-right" id="menu-list-item1" ui-sref="menu.home" menu-close="">Home
+          <i class="icon ion-ios-home"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item3" ui-sref="menu.schedule" menu-close="">Schedule
+          <i class="icon ion-android-calendar"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item11" ui-sref="menu.lostAndFound" menu-close="">Lost and Found
+          <i class="icon ion-android-sad"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item22" ui-sref="menu.favorites" menu-close="">Favorites
+          <i class="icon ion-egg"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="menu-list-item26" ui-sref="menu.messages" menu-close="">Messages
+          <i class="icon ion-paper-airplane"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
